@@ -38,6 +38,7 @@ services:
             - ./logstash/pipeline:/usr/share/logstash/pipeline
         ports:
             - "5000:5000"
+            - "5051:5051"
 
         networks:
             - elk
